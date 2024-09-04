@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(to right, #341237, #0e0d0d);
+}
+.player{
+    position: absolute;
+    width: 350px;
+    background: #f1f3f4;
+    border-radius: 20px;
+    box-shadow: 0 50px 80px rgba(133, 2, 135, 0.734);
+}
+.player .imgbox{
+    position: relative;
+    width: 100px;
+    height: 450px;
+}
+.player .imgbox img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 350px;
+    height: 450px;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.player audio{
+    width: 350px;
+    outline: none;
+}
